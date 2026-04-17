@@ -1,14 +1,14 @@
 package com.pluralsight;
 
 public class Vehicle {
-    //fields
+    //fields are the class "properties"
     private long vehicleId;
     private String makeModel;
     private String color;
     private int odometerReader;
     private double price;
 
-    // constructor
+    // constructor initializes the to-be object (builds the vehicle object with its data)
     public Vehicle(long vehicleId, String makeModel, String color, int odometerReader, double price) {
         this.vehicleId = vehicleId;
         this.makeModel = makeModel;
@@ -17,7 +17,7 @@ public class Vehicle {
         this.price = price;
     }
 
-    // getters and setters
+    //  getters (reads a value from the variable) and setters (updates a value from the variable)
     public long getVehicleId() {
         return vehicleId;
     }
